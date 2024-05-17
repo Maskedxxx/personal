@@ -1,0 +1,170 @@
+[
+    {
+        "data": [
+            {
+                "id": "step_D098Ky4a1A2uXsUkAbgNpo6V",
+                "assistant_id": "asst_yOEj5bDErckIQmWM0zgMdSVj",
+                "cancelled_at": null,
+                "completed_at": 1714906321,
+                "created_at": 1714906317,
+                "failed_at": null,
+                "last_error": null,
+                "object": "thread.run.step",
+                "run_id": "run_LsLvhchvbkc3PgR8R662hmJn",
+                "status": "completed",
+                "step_details": {
+                    "message_creation": {
+                        "message_id": "msg_kANy1vY18MleOSqMQ0bAojp1"
+                    },
+                    "type": "message_creation"
+                },
+                "thread_id": "thread_jqhZgocR7vbvLXajrtiesqj0",
+                "type": "message_creation",
+                "usage": {
+                    "completion_tokens": 252,
+                    "prompt_tokens": 4993,
+                    "total_tokens": 5245
+                },
+                "expires_at": null
+            },
+            {
+                "id": "step_kmRtEagY4DveUmXbbjpkhq7z",
+                "assistant_id": "asst_yOEj5bDErckIQmWM0zgMdSVj",
+                "cancelled_at": null,
+                "completed_at": 1714906317,
+                "created_at": 1714906316,
+                "failed_at": null,
+                "last_error": null,
+                "object": "thread.run.step",
+                "run_id": "run_LsLvhchvbkc3PgR8R662hmJn",
+                "status": "completed",
+                "step_details": {
+                    "tool_calls": [
+                        {
+                            "id": "call_5SWIcGsjjpN5pK7qSHZeV1Us",
+                            "file_search": {},
+                            "type": "file_search"
+                        }
+                    ],
+                    "type": "tool_calls"
+                },
+                "thread_id": "thread_jqhZgocR7vbvLXajrtiesqj0",
+                "type": "tool_calls",
+                "usage": {
+                    "completion_tokens": 17,
+                    "prompt_tokens": 737,
+                    "total_tokens": 754
+                },
+                "expires_at": null
+            }
+        ],
+        "object": "list",
+        "first_id": "step_D098Ky4a1A2uXsUkAbgNpo6V",
+        "last_id": "step_kmRtEagY4DveUmXbbjpkhq7z",
+        "has_more": false
+    },
+    {
+        "id": "step_D098Ky4a1A2uXsUkAbgNpo6V",
+        "assistant_id": "asst_yOEj5bDErckIQmWM0zgMdSVj",
+        "cancelled_at": null,
+        "completed_at": 1714906321,
+        "created_at": 1714906317,
+        "failed_at": null,
+        "last_error": null,
+        "object": "thread.run.step",
+        "run_id": "run_LsLvhchvbkc3PgR8R662hmJn",
+        "status": "completed",
+        "step_details": {
+            "message_creation": {
+                "message_id": "msg_kANy1vY18MleOSqMQ0bAojp1"
+            },
+            "type": "message_creation"
+        },
+        "thread_id": "thread_jqhZgocR7vbvLXajrtiesqj0",
+        "type": "message_creation",
+        "usage": {
+            "completion_tokens": 252,
+            "prompt_tokens": 4993,
+            "total_tokens": 5245
+        },
+        "expires_at": null
+    },
+    {
+        "data": [
+            {
+                "id": "msg_0sWv2jMH1BSdgUPdcl6PGY9E",
+                "assistant_id": null,
+                "attachments": [],
+                "content": [
+                    {
+                        "text": {
+                            "annotations": [],
+                            "value": "Здравстуйте, вам сейчас будут заданы вопросы об астрологии."
+                        },
+                        "type": "text"
+                    }
+                ],
+                "created_at": 1714903923,
+                "metadata": {},
+                "object": "thread.message",
+                "role": "user",
+                "run_id": null,
+                "thread_id": "thread_jqhZgocR7vbvLXajrtiesqj0"
+            },
+            {
+                "id": "msg_B8pA1S4O5NMSQfhKC30O70Co",
+                "assistant_id": null,
+                "attachments": [],
+                "content": [
+                    {
+                        "text": {
+                            "annotations": [],
+                            "value": "Какие упайи нужны для Солнца?"
+                        },
+                        "type": "text"
+                    }
+                ],
+                "created_at": 1714904372,
+                "metadata": {},
+                "object": "thread.message",
+                "role": "user",
+                "run_id": null,
+                "thread_id": "thread_jqhZgocR7vbvLXajrtiesqj0"
+            },
+            {
+                "id": "msg_kANy1vY18MleOSqMQ0bAojp1",
+                "assistant_id": "asst_yOEj5bDErckIQmWM0zgMdSVj",
+                "attachments": [],
+                "content": [
+                    {
+                        "text": {
+                            "annotations": [
+                                {
+                                    "end_index": 414,
+                                    "file_citation": {
+                                        "file_id": "file-8wFAh1pAqigNn8JX5c4ZNUvd"
+                                    },
+                                    "start_index": 402,
+                                    "text": "【5:0†source】",
+                                    "type": "file_citation"
+                                }
+                            ],
+                            "value": "Для усиления и улучшения позиции Солнца, рекомендуется выполнять следующие упайи:\n\n1. Чтение мантры \"ом намо бхагавате раманачандрайя\" 108 раз с утра по воскресеньям.\n2. Вставать до восхода солнца.\n3. Употребление масла гхи.\n4. Пост в воскресенье.\n5. Выполнение комплекса упражнений сурья намаскар.\n6. Ухаживать за отцом и показывать уважение к нему.\n7. Почитание и уважение отца, начальника, правителя【5:0†source】.\n\nНадеюсь мой ответ помог вам, если у вас есть дополнительные вопросы, не стесняйтесь их задавать!"
+                        },
+                        "type": "text"
+                    }
+                ],
+                "created_at": 1714906317,
+                "metadata": {},
+                "object": "thread.message",
+                "role": "assistant",
+                "run_id": "run_LsLvhchvbkc3PgR8R662hmJn",
+                "thread_id": "thread_jqhZgocR7vbvLXajrtiesqj0"
+            }
+        ],
+        "object": "list",
+        "first_id": "msg_0sWv2jMH1BSdgUPdcl6PGY9E",
+        "last_id": "msg_kANy1vY18MleOSqMQ0bAojp1",
+        "has_more": false
+    }
+]
